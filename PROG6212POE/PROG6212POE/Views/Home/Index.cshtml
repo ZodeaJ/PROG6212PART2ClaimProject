@@ -1,8 +1,37 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Lecturer Claim System";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="jumbotron p-5 rounded shadow-sm" style="background: linear-gradient(135deg, #fce4ec, #f8bbd0); border-left: 8px solid #d81b60;">
+        <h1 class="display-4 text-dark">
+            <i class="bi bi-journal-text me-2 text-pink"></i> Welcome to the Lecturer Claim System
+        </h1>
+        <p class="lead text-secondary">Submit, track, and verify monthly claims with ease.</p>
+        <hr class="my-4 border-pink">
+        <p class="fw-bold text-dark">This is what the application does:</p>
+
+        <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item bg-white">
+                <i class="bi bi-pencil-square me-2" style="color: #d81b60;"></i>
+                <strong style="color: #d81b60;">Submit Claim</strong> – Fill in your monthly hours and upload supporting documents.
+            </li>
+            <li class="list-group-item bg-white">
+                <i class="bi bi-bar-chart-line me-2" style="color: #c2185b;"></i>
+                <strong style="color: #c2185b;">Track Status</strong> – View claim progress and feedback from coordinators or managers.
+            </li>
+            <li class="list-group-item bg-white">
+                <i class="bi bi-person-check me-2" style="color: #ad1457;"></i>
+                <strong style="color: #ad1457;">Review Claims</strong> – (Coordinator) Forward or reject claims with feedback.
+            </li>
+            <li class="list-group-item bg-white">
+                <i class="bi bi-check2-circle me-2" style="color: #880e4f;"></i>
+                <strong style="color: #880e4f;">Verify Claims</strong> – (Manager) Approve or reject forwarded claims with feedback.
+            </li>
+            <li class="list-group-item bg-white">
+                <i class="bi bi-chat-left-text me-2" style="color: #6a1b9a;"></i>
+                <strong style="color: #6a1b9a;">Claim Feedback</strong> – View the feedback of your claim.
+            </li>
+        </ul>
+    </div>
 </div>

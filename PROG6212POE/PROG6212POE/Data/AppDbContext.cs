@@ -14,7 +14,7 @@ namespace PROG6212POE.Data
         public DbSet<Coordinator> Coordinators { get; set; }
         public DbSet<Manager> Managers { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 

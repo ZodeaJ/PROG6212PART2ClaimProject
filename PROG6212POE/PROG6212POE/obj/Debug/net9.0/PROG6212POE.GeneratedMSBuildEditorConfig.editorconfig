@@ -17,61 +17,61 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PROG6212POE
 build_property.RootNamespace = PROG6212POE
-build_property.ProjectDir = C:\Users\lab_services_student\Documents\GitHub\PROG6212PART2ClaimProject\PROG6212POE\PROG6212POE\
+build_property.ProjectDir = C:\Users\lab_services_student\Documents\PROG\PROG6212POE\PROG6212POE\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\lab_services_student\Documents\GitHub\PROG6212PART2ClaimProject\PROG6212POE\PROG6212POE
+build_property.MSBuildProjectDirectory = C:\Users\lab_services_student\Documents\PROG\PROG6212POE\PROG6212POE
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Admin/ReviewClaims.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Admin/ReviewClaims.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3Q2xhaW1zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Admin/VerifyClaims.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Admin/VerifyClaims.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmVyaWZ5Q2xhaW1zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Claim/TrackClaimStatus.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Claim/TrackClaimStatus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cVHJhY2tDbGFpbVN0YXR1cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Home/Index.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Home/Privacy.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Lecturer/ClaimFeedback.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Lecturer/ClaimFeedback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJcQ2xhaW1GZWVkYmFjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Lecturer/MakeAClaim.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Lecturer/MakeAClaim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdHVyZXJcTWFrZUFDbGFpbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Shared/Error.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/_ViewImports.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/_ViewStart.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lab_services_student/Documents/GitHub/PROG6212PART2ClaimProject/PROG6212POE/PROG6212POE/Views/Shared/_Layout.cshtml]
+[C:/Users/lab_services_student/Documents/PROG/PROG6212POE/PROG6212POE/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ebzkuqfqps

@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PROG6212POE.Data;
@@ -38,10 +37,9 @@ namespace PROG6212POE.Controllers
         public async Task<IActionResult> MakeAClaim(Claim claim, IFormFile SupportingDocument)
         {
             ViewBag.Lecturers = _context.Lecturers
-            .Select(l => new SelectListItem
-            {
-                Value = l.LecturerId.ToString(),
-                Text = l.Name
+            .Select(l => new SelectListItem{
+            Value = l.LecturerId.ToString(),
+            Text = l.Name
             }).ToList();
 
             if (!ModelState.IsValid)
