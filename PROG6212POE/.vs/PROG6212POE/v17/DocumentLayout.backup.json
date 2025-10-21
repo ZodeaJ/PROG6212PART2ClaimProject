@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D0CBCAB1-CA3A-4F56-91FE-05A931F586DA}|PROG6212POE\\PROG6212POE.csproj|c:\\users\\lab_services_student\\documents\\github\\prog6212part2claimproject\\prog6212poe\\prog6212poe\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CBCAB1-CA3A-4F56-91FE-05A931F586DA}|PROG6212POE\\PROG6212POE.csproj|solutionrelative:prog6212poe\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0CBCAB1-CA3A-4F56-91FE-05A931F586DA}|PROG6212POE\\PROG6212POE.csproj|c:\\users\\lab_services_student\\documents\\github\\prog6212part2claimproject\\prog6212poe\\prog6212poe\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CBCAB1-CA3A-4F56-91FE-05A931F586DA}|PROG6212POE\\PROG6212POE.csproj|solutionrelative:prog6212poe\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,37 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PROG6212POE\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PROG6212POE\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PROG6212POE\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PROG6212POE\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:46:17.89Z",
+              "WhenOpened": "2025-10-21T11:48:26.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClaimController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\ClaimController.cs",
-              "RelativeDocumentMoniker": "PROG6212POE\\Controllers\\ClaimController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\ClaimController.cs",
-              "RelativeToolTip": "PROG6212POE\\Controllers\\ClaimController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwDMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:34:55.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Controllers\\AdminController.cs",
@@ -101,7 +92,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "PROG6212POE\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "PROG6212POE\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:34:55.882Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PROG6212POE\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PROG6212POE\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:46:17.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LecturerController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Controllers\\LecturerController.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Controllers\\LecturerController.cs",
@@ -109,12 +124,11 @@
               "RelativeToolTip": "PROG6212POE\\Controllers\\LecturerController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:35:11.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:35:11.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Lecturer.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\Lecturer.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\Lecturer.cs",
@@ -122,12 +136,11 @@
               "RelativeToolTip": "PROG6212POE\\Models\\Lecturer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:29:31.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:29:31.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Manager.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\Manager.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\Manager.cs",
@@ -135,12 +148,11 @@
               "RelativeToolTip": "PROG6212POE\\Models\\Manager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:29:41.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:29:41.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IFileStorage.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\IFileStorage.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\IFileStorage.cs",
@@ -148,12 +160,11 @@
               "RelativeToolTip": "PROG6212POE\\Models\\IFileStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:29:16.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:29:16.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FileStorage.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\FileStorage.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\FileStorage.cs",
@@ -161,12 +172,11 @@
               "RelativeToolTip": "PROG6212POE\\Models\\FileStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:29:00.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:29:00.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Feedback.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\Feedback.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\Feedback.cs",
@@ -174,12 +184,11 @@
               "RelativeToolTip": "PROG6212POE\\Models\\Feedback.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:28:08.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:28:08.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\ErrorViewModel.cs",
@@ -187,12 +196,11 @@
               "RelativeToolTip": "PROG6212POE\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:30:13.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:30:13.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Claim.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\Claim.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\Claim.cs",
@@ -200,12 +208,11 @@
               "RelativeToolTip": "PROG6212POE\\Models\\Claim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:27:21.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:27:21.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Coordinator.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\PROG6212PART2ClaimProject\\PROG6212POE\\PROG6212POE\\Models\\Coordinator.cs",
               "RelativeDocumentMoniker": "PROG6212POE\\Models\\Coordinator.cs",
@@ -213,8 +220,7 @@
               "RelativeToolTip": "PROG6212POE\\Models\\Coordinator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T11:27:55.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:27:55.55Z"
             }
           ]
         }

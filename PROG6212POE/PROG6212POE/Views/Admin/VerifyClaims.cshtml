@@ -1,0 +1,66 @@
+﻿@model IEnumerable<PROG6212POE.Models.Claim>
+@{
+    ViewData["Title"] = "Verify Claims";
+}
+
+<h2>Forwarded Claims (Manager)</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No claims to verify.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Claim ID</th>
+                <th>Lecturer</th>
+                <th>Month</th>
+                <th>Description</th>
+                <th>Hours</th>
+                <th>Rate</th>
+                <th>Amount</th>
+                <th>Document</th>
+                <th>Actions / Feedback</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.ClaimId</td>
+                    <td>@claim.Lecturer?.Name</td>
+                    <td>@claim.Month</td>
+                    <td>@claim.Description</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>@claim.HourlyRate</td>
+                    <td>@claim.Amount</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(claim.SupportingDocument))
+                        {
+                            <a asp-controller="Claim"
+                               asp-action="ViewDocument"
+                               asp-route-claimId="@claim.ClaimId"
+                               class="btn btn-sm btn-outline-dark"
+                               target="_blank">View</a>
+                        }
+                    </td>
+                    <td>
+                        <form asp-action="ApproveClaim" method="post" class="mb-2">
+                            <input type="hidden" name="id" value="@claim.ClaimId" />
+                            <input type="text" name="managerMessage" class="form-control mb-1" placeholder="Optional feedback" />
+                            <button type="submit" class="btn btn-sm btn-success">Approve</button>
+                        </form>
+
+                        <form asp-action="RejectByManager" method="post">
+                            <input type="hidden" name="id" value="@claim.ClaimId" />
+                            <input type="text" name="managerMessage" class="form-control mb-1" placeholder="Optional feedback" />
+                            <button type="submit" class="btn btn-sm btn-danger">Reject</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
