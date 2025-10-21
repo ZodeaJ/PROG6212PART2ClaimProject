@@ -1,0 +1,105 @@
+﻿@model IEnumerable<PROG6212POE.Models.Claim>
+@{
+    ViewData["Title"] = "Track Claim Status";
+}
+
+<h2>Your Claims</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">You have not submitted any claims yet.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Claim ID</th>
+                <th>Lecturer</th>
+                <th>Month</th>
+                <th>Description</th>
+                <th>Hours</th>
+                <th>Rate</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Feedback</th>
+                <th>Document</th>
+                <th>Button</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.ClaimId</td>
+                    <td>@claim.Lecturer?.Name</td>
+                    <td>@claim.Month</td>
+                    <td>@claim.Description</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>@claim.HourlyRate</td>
+                    <td>@claim.Amount</td>
+                    <td>
+                        @if (claim.Status == ClaimStatus.Submitted)
+                        {
+                            <span class="badge bg-secondary">Submitted</span>
+                        }
+                        else if (claim.Status == ClaimStatus.Forwarded)
+                        {
+                            <span class="badge bg-info text-dark">Forwarded</span>
+                        }
+                        else if (claim.Status == ClaimStatus.Approved)
+                        {
+                            <span class="badge bg-success">Approved</span>
+                        }
+                        else if (claim.Status == ClaimStatus.Rejected)
+                        {
+                            <span class="badge bg-danger">Rejected</span>
+                        }
+                    </td>
+                    <td>
+                        @if (claim.FeedbackMessages.Any())
+                        {
+                            <ul class="list-unstyled">
+                                @foreach (var fb in claim.FeedbackMessages.OrderBy(f => f.Timestamp))
+                                {
+                                    <li>
+                                        <strong>@fb.Role:</strong> @fb.Message
+                                        <small class="text-muted">(@fb.Timestamp.ToString("g"))</small>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span class="text-muted">No feedback yet</span>
+                        }
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(claim.SupportingDocument))
+                        {
+                            <a asp-controller="Claim"
+                               asp-action="ViewDocument"
+                               asp-route-claimId="@claim.ClaimId"
+                               class="btn btn-sm btn-outline-dark"
+                               target="_blank">View</a>
+                        }
+                    </td>
+                    <td>
+                        @* Delete button only for Rejected or Approved claims *@
+                        @if (claim.Status == ClaimStatus.Rejected || claim.Status == ClaimStatus.Approved)
+                        {
+                            <form asp-action="DeleteClaim" asp-controller="Lecturer" method="post" class="d-inline">
+                                <input type="hidden" name="claimId" value="@claim.ClaimId" />
+                                <button type="submit" class="btn btn-sm btn-danger"
+                                        onclick="return confirm('Are you sure you want to delete this claim?');">
+                                    Delete
+                                </button>
+                            </form>
+                        }
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
