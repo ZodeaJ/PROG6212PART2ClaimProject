@@ -1,0 +1,70 @@
+﻿@model PROG6212POE.Models.Claim
+@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h2 class="mb-4">Submit Claim</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<div asp-validation-summary="All" class="alert alert-danger"></div>
+
+<div class="card shadow-sm">
+    <div class="card-header bg-dark text-white">
+        <h5 class="mb-0">Claim Form</h5>
+    </div>
+    <div class="card-body">
+        <form asp-action="MakeAClaim" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="LecturerId" class="form-label">Lecturer</label>
+                <select asp-for="LecturerId" asp-items="ViewBag.Lecturers" class="form-select">
+                    <option value="">-- Select Lecturer --</option>
+                </select>
+                <span asp-validation-for="LecturerId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Month</label>
+                <input asp-for="Month" class="form-control" />
+                <span asp-validation-for="Month" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Hours Worked</label>
+                <input asp-for="HoursWorked" class="form-control" />
+                <span asp-validation-for="HoursWorked" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Hourly Rate</label>
+                <input asp-for="HourlyRate" class="form-control" />
+                <span asp-validation-for="HourlyRate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Description</label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Supporting Document (.pdf, .docx, .xlsx, .png)</label>
+                <input type="file" name="SupportingDocument" class="form-control" />
+                <span asp-validation-for="SupportingDocument" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Claim</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
